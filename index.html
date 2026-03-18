@@ -3,66 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD Soluciones Integrales</title>
+    <title>MD Soluciones Integrales | Automatización, climatización y soluciones técnicas</title>
+    <meta name="description" content="MD Soluciones Integrales ofrece automatización, climatización y soluciones técnicas para hogares, oficinas y conjuntos residenciales en Bogotá.">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <header>
-        <nav>
-            <div class="logo"><img src="img/LOGOTIPO-FINAL-LARGO-GRIS_4.png" alt="Logo MD Soluciones Integrales"></div>
-            <ul>
+    <header class="site-header">
+        <nav class="main-nav">
+            <a class="logo" href="#inicio" aria-label="Ir al inicio de MD Soluciones Integrales">
+                <img src="img/LOGOTIPO-FINAL-LARGO-GRIS_4.png" alt="Logo MD Soluciones Integrales">
+            </a>
+            <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="evolucion.html" style="font-weight: bold; color: #d38105;">Nuestra Evolución</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="evolucion.html" class="nav-highlight">Nuestra Evolución</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="servicios" class="container">
-        <h2>Nuestros Servicios</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <h3>Automatización</h3>
-                <p><b>Acceso inteligente:</b> Tu identidad es la llave. Olvídate de las llaves y códigos tradicionales. En <b>MD Soluciones Integrales</b> transformamos tu hogar u oficina en un entorno de alta seguridad mediante sistemas de reconocimiento facial y biometría avanzada. Disfruta de un control total, automatizado y sin contacto, diseñado para simplificar tu acceso y proteger lo que más importa.</p>
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-copy">
+                <p class="eyebrow">Infraestructura tecnica que responde</p>
+                <h1>Soluciones inteligentes para espacios que deben funcionar sin fallar.</h1>
+                <p class="hero-text">Integramos automatizacion, climatizacion y soporte tecnico con una ejecucion limpia, segura y pensada para hogares, oficinas y proyectos residenciales que necesitan resultados confiables.</p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/573054668929" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar asesoria</a>
+                    <a href="#servicios" class="btn btn-secondary">Ver servicios</a>
+                </div>
+                <ul class="hero-metrics">
+                    <li>
+                        <strong>Atencion integral</strong>
+                        <span>Un solo aliado para varias necesidades tecnicas.</span>
+                    </li>
+                    <li>
+                        <strong>Respuesta precisa</strong>
+                        <span>Soluciones pensadas segun el tipo de espacio y operacion.</span>
+                    </li>
+                    <li>
+                        <strong>Enfoque profesional</strong>
+                        <span>Instalacion, soporte y acompanamiento con criterio tecnico.</span>
+                    </li>
+                </ul>
             </div>
-            <div class="service-card">
-                <h3>Sistemas de climatización</h3>
-                <p><b>Control ambiental total en cada espacio.</b> Transformamos tus entornos con tecnología de vanguardia en aire acondicionado y calefacción. En <b>MD Soluciones Integrales</b>, ofrecemos sistemas de climatización de alta eficiencia para hogares modernos y oficinas de alto rendimiento. Logra el equilibrio térmico ideal con equipos silenciosos y de bajo consumo, diseñados para elevar tu calidad de vida y optimizar tu entorno profesional.</p>
-            </div>
-            <div class="service-card">
-                <h3>Soluciones integrales</h3>
-                <p>Potenciamos tus espacios con tecnología de vanguardia. Ya sea renovando la iluminación de su sala, optimizando tu oficina o gestionando las áreas comunes de un conjunto residencial, en <b>MD Soluciones Integrales</b> ofrecemos resultados impecables. Integramos soluciones de alto rendimiento para que usted solo se preocupe por disfrutar de un entorno brillante, eficiente y protegido.</p>
-            </div>
-        </div>
-    </section>
 
-    <section id="proyectos" class="carousel-container">
-        <h2>Galería de Trabajo</h2>
-        <div class="carousel">
-            <div class="carousel-inner">
-                <img src="img/auto.png" class="slide active">
-                <img src="img/clima.png" class="slide">
-                <img src="img/integral.png" class="slide">
+            <div class="hero-visual">
+                <div class="hero-card hero-card-main">
+                    <img src="img/integral.png" alt="Proyecto integral realizado por MD Soluciones Integrales">
+                </div>
+                <div class="hero-card hero-card-floating">
+                    <p>Optimizamos confort, seguridad y operacion en un mismo proyecto.</p>
+                </div>
             </div>
-            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-            <button class="next" onclick="moveSlide(1)">&#10095;</button>
-        </div>
-    </section>
+        </section>
+
+        <section class="trust-bar">
+            <div class="trust-item">
+                <span class="trust-label">Automatizacion</span>
+                <p>Accesos, control y domotica para espacios mas seguros y eficientes.</p>
+            </div>
+            <div class="trust-item">
+                <span class="trust-label">Climatizacion</span>
+                <p>Sistemas de aire acondicionado y calefaccion con enfoque en rendimiento.</p>
+            </div>
+            <div class="trust-item">
+                <span class="trust-label">Soporte integral</span>
+                <p>Instalacion, mantenimiento y soluciones tecnicas en un mismo servicio.</p>
+            </div>
+        </section>
+
+        <section id="servicios" class="container services-section">
+            <div class="section-heading">
+                <p class="eyebrow">Servicios principales</p>
+                <h2>Diseñamos soluciones para que tu espacio opere mejor todos los dias.</h2>
+                <p>Combinamos tecnologia, instalacion y criterio tecnico para entregar proyectos funcionales, seguros y listos para durar.</p>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-fingerprint" aria-hidden="true"></i></div>
+                    <h3>Automatizacion y control</h3>
+                    <p>Implementamos accesos inteligentes, biometria y automatizacion para mejorar seguridad, control y comodidad en hogares y oficinas.</p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-snowflake" aria-hidden="true"></i></div>
+                    <h3>Sistemas de climatizacion</h3>
+                    <p>Instalamos y optimizamos equipos de aire acondicionado y calefaccion con foco en eficiencia, confort y continuidad operativa.</p>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon"><i class="fas fa-toolbox" aria-hidden="true"></i></div>
+                    <h3>Soluciones tecnicas integrales</h3>
+                    <p>Atendemos proyectos residenciales, comerciales y corporativos con una mirada completa: diagnostico, instalacion y soporte.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container value-section">
+            <div class="value-copy">
+                <p class="eyebrow">Por que elegirnos</p>
+                <h2>Menos improvisacion, mas criterio tecnico en cada decision.</h2>
+                <p>Trabajamos para que cada instalacion se vea bien, funcione mejor y responda a las exigencias reales del lugar donde se implementa.</p>
+            </div>
+            <div class="value-list">
+                <article>
+                    <h3>Diagnostico claro</h3>
+                    <p>Evaluamos el espacio antes de proponer soluciones para evitar sobrecostos y retrabajos.</p>
+                </article>
+                <article>
+                    <h3>Ejecucion ordenada</h3>
+                    <p>Priorizamos instalaciones limpias, seguras y alineadas con la operacion del cliente.</p>
+                </article>
+                <article>
+                    <h3>Acompanamiento real</h3>
+                    <p>No solo instalamos: tambien ayudamos a mantener y escalar la solucion cuando el proyecto lo requiere.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="proyectos" class="container gallery-section">
+            <div class="section-heading">
+                <p class="eyebrow">Proyectos y resultados</p>
+                <h2>Trabajos que muestran nuestra forma de ejecutar.</h2>
+                <p>Estas imagenes reflejan parte de nuestra experiencia en automatizacion, climatizacion y soluciones integrales.</p>
+            </div>
+
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <img src="img/auto.png" class="slide active" alt="Sistema de automatizacion instalado por MD Soluciones Integrales">
+                    <img src="img/clima.png" class="slide" alt="Proyecto de climatizacion realizado por MD Soluciones Integrales">
+                    <img src="img/integral.png" class="slide" alt="Solucion integral implementada por MD Soluciones Integrales">
+                </div>
+                <button class="prev" type="button" onclick="moveSlide(-1)" aria-label="Ver proyecto anterior">&#10094;</button>
+                <button class="next" type="button" onclick="moveSlide(1)" aria-label="Ver siguiente proyecto">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="contacto" class="container contact-section">
+            <div class="contact-panel">
+                <div class="contact-copy">
+                    <p class="eyebrow">Conversemos</p>
+                    <h2>Llevemos tu proyecto a una solucion tecnica mas solida.</h2>
+                    <p>Si necesitas soporte, una instalacion nueva o una propuesta para mejorar tu infraestructura, podemos ayudarte a definir el siguiente paso.</p>
+                </div>
+                <div class="contact-details">
+                    <p><strong>Direccion:</strong> Carrera 13 #17 - 74, Bogota D.C.</p>
+                    <p><strong>Correo:</strong> mdsoluciones.co@gmail.com</p>
+                    <p><strong>Telefono:</strong> +57 3054668929</p>
+                    <a href="https://wa.me/573054668929" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div class="footer-content">
-            <p><strong>Dirección:</strong> Carrera 13 #17 - 74, Bogotá D.C.</p>
+            <p><strong>Direccion:</strong> Carrera 13 #17 - 74, Bogota D.C.</p>
             <p><strong>Correo:</strong> mdsoluciones.co@gmail.com</p>
-            <p><strong>Teléfono:</strong> +57 3054668929</p>
+            <p><strong>Telefono:</strong> +57 3054668929</p>
         </div>
         <p>&copy; 2026 <b>MD Soluciones Integrales</b> - Todos los derechos reservados</p>
     </footer>
 
-    <a href="https://wa.me/573054668929" class="whatsapp-btn" target="_blank">
-        <i class="fab fa-whatsapp"></i>
+    <a href="https://wa.me/573054668929" class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Escribir a MD Soluciones Integrales por WhatsApp">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
     </a>
 
     <script src="script.js"></script>
